@@ -1,0 +1,34 @@
+html,body,section { 
+margin: 0; 
+height: 100%;
+width: 100%;
+padding: 0;
+overflow-x: hidden;
+} 
+.head {
+  padding: 10em 0;
+  background-image: url(d5045aebde0305268cbb440d4f474038.gif);
+  background-size: cover;
+  border-top: solid #AE8AC4;
+  width: auto;
+  height: auto;
+}
+.foot {
+  padding: 0em 0;
+  margin-top: 0em;
+background: #0a205a;
+}
+.grad2 {
+    width: auto;
+    height: auto;
+    background-image: 
+linear-gradient(to top, transparent, silver),    
+linear-gradient(to right, silver, grey);
+    background-size: 100% 100%, 2000% 100%;
+    animation: move 5s infinite;
+}
+
+@keyframes move {
+ from {background-position: center center, left center;}
+ to {background-position: center center, right center;}
+}
